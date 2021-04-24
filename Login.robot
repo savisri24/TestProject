@@ -10,6 +10,7 @@ LoginLogoutTest
     
        Openurl
        Login  
+       Logout
 
 *** Variables ***
 
