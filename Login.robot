@@ -10,6 +10,7 @@ LoginLogoutTest
     
        Openurl
        Login  
+       Logout
 
 *** Variables ***
 
@@ -62,7 +63,7 @@ Scroll Page To Location
     
 Logout
     
-       Click Element              xpath=//*[contains(text(),'Sign Out')]  
+       Click Element              xpath=//i[@class='icon-logout']  
     
 
       
