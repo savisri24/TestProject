@@ -12,6 +12,7 @@ Login Test
        Login  
        
 Logout Test
+       
        Logout
 
 *** Variables ***
@@ -43,10 +44,6 @@ Login
        Input Text                      id=username    	                                   ${Username}   
        Input Text                      id=password                                          ${password}
        Click Element                   //button[contains(.,'Log in')]
-       Sleep                           5
-       Go To                           ${URL1}
-       Wait Until Element Is Visible   ${AddLetter}   
-       Click Element                   ${AddLetter}
        
        # Wait Until Element Is Visible    ${Action}    
        # Click Element    ${Action}    
