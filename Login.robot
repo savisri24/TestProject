@@ -6,10 +6,12 @@ Default Tags    Smoke Test
 
 *** Test Cases ***
 
-LoginLogoutTest
+Login Test
     
        Openurl
        Login  
+       
+Logout Test
        Logout
 
 *** Variables ***
